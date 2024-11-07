@@ -67,12 +67,14 @@ getGreetingDependOnTime = function (myDate) {
 
 
 function increaseTemperature() {
-    temperature--;
+    //temperature--;
+    temperature++;
     updateDisplay();
 }
 
 function decreaseTemperature() {
-    temperature++;
+    //temperature++;
+    temperature--;
     updateDisplay();
 }
 
